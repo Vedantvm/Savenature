@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*google font section*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/*end google font section*/
+
+
+/*keyframe section*/
+@keyframes saveh2{
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes bor1{
+  0%{
+    transform: translateX(-400px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes savep{
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes btn1{
+  from{
+   margin-left: -150px;
+  }
+  to{
+    margin-left: 115px;
+  }
+}
+/*end keyframe section*/
+
+
+/*nave nature heading section*/
+.savenature{
+  background: url(headback.jpg);
+  z-index: -1;
+  background-size: cover;
+  height: 50vh;
+}
+.savenature h2{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 80px;
+  font-family: sans-serif;
+  animation-name: saveh2;
+  animation-duration: 4s;
+}
+.border{
+  border-bottom: 4px solid #fff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  animation-name: bor1;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+.savenature p{
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  animation-name: savep;
+  animation-duration: 4s;
+}
+.readmore{
+  
+}
+.readmore #morebtn{
+  text-align: center;
+  margin-left: 115px;
+  margin-top: 30px;
+  border: 2px solid darkgreen;
+  background: darkgreen;
+  width: 120px;
+  font-size: 15px;
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 20px;
+  transition: all 0.30s ease;
+  animation-name: btn1;
+  animation-duration: 3s;
+}
+#morebtn:hover{
+  font-size: 13px;
+  margin-left: 115px;
+  margin-top: 33px;
+  border: 2px solid white;
+  background: none;
+}
+/*end nature heading section*/
+
+
+/* icon section 1*/
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+.icons .iconone{
+  
+}
+.icons .iconone i.fa-leaf{
+  font-size: 70px;
+  color: darkgreen;
+}
+.icons .iconone h4{
+  padding-right: 20px;
+margin-top: 10px;
+}
+.icons .icontwo{
+  margin-left: 70px;
+}
+.icons .icontwo h4{
+  margin-top: 10px;
+}
+.icons .icontwo i.fa-globe-americas{
+  font-size: 80px;
+  color: darkgreen;
+}
+/*end icon section 1*/
+
+
+/*center line icon section*/
+.border2{
+  border-bottom: 2px solid darkgrey;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/*end center line icon section*/
+
+
+/*icon section 2*/
+.icons2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+.icons2 .iconone2{
+  
+}
+.icons2 .iconone2 i.fa-child{
+  font-size: 85px;
+  color: darkgreen;
+  margin-left: 10px;
+}
+.icons2 .iconone2 h4{
+  padding-right: 20px;
+margin-top: 10px;
+}
+.icons2 .icontwo22{
+  margin-left: 100px;
+}
+.icons2 .icontwo22 h4{
+  margin-top: 10px;
+}
+.icons2 .icontwo22 i.fa-tree{
+  font-size: 85px;
+  color: darkgreen;
+  transform: translate()
+}
+.slh4{
+  margin-left: 10px;
+}
+/*end icon section 2*/
+
+
+/*border center img*/
+.borderim{
+  border: 1px solid darkgrey;
+  margin-top: 20px;
+}
+/*end border center img*/
+
+
+/*article section*/
+.article{
+  
+}
+.articlebox{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.article .articlebox img{
+  
+}
+.article .articlebox h3{
+  padding-left: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: darkgreen;
+    font-weight: bold;
+
+}
+.article .articlebox p{
+  text-align: center;
+  margin-right: 50px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: darkgreen;
+  font-weight: bold;
+}
